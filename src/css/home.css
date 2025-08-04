@@ -1,0 +1,16 @@
+.work-image-container  {
+    border: 1px solid #ff5a01;
+    height: 15rem;
+    width: 20rem;
+}
+
+.work-image-container img {
+    object-fit: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.works-container > div {
+  margin: 0.3rem;
+  width: 30%
+}
