@@ -29,6 +29,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Harreks', // Usually your GitHub org/user name.
   projectName: 'HarrekHeals', // Usually your repo name.
+  deploymentBranch: 'deployment',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -154,8 +156,8 @@ const config = {
 		},
     }),
   	scripts: [
-		'/scripts/wowheadTooltips.js',
-		'https://wow.zamimg.com/js/tooltips.js'
+		//'/scripts/wowheadTooltips.js',
+		//'https://wow.zamimg.com/js/tooltips.js'
 	]
 };
 

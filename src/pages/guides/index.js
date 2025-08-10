@@ -9,7 +9,6 @@ export default function main() {
 
   // If you're using the default docs plugin id, it will be 'default'
   const docs = allDocsData['default']['versions'][0].docs;
-  console.log(docs);
 
   return (
     <Layout title="All Docs">
