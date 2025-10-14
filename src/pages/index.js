@@ -1,5 +1,5 @@
-import React from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import {
     HarrekLogo,
     HealerRampHelperAddon,
@@ -76,6 +76,9 @@ export default function main() {
 
     return (
         <Layout title="Harrek Heals" description="The Homepage" slug="/asd">
+            <Head>
+                <meta property="og:description" content="Healer Ramblings and Notes" data-rh="true" />
+            </Head>
             <main style={{maxWidth: 1000, margin: '1rem auto'}}>
                 <div class='content-center'>
                     <img src={HarrekLogo} style={{height: 200}}></img>

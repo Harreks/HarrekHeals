@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/harrek-logo-square.png',
       navbar: {
         style: 'dark',
         title: 'HarrekHeals',
@@ -89,6 +89,7 @@ const config = {
           {to: '/services', label: 'Services', position: 'left'},
         ],
 		},
+    headTags: [],
 		footer: {
 			style: 'dark',
 			links: [
@@ -156,8 +157,10 @@ const config = {
 		},
     }),
   	scripts: [
-		//'/scripts/wowheadTooltips.js',
-		//'https://wow.zamimg.com/js/tooltips.js'
+      {
+        src: '/js/clarity.js',
+        async: false
+      }
 	]
 };
 
