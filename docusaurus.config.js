@@ -48,17 +48,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/guides'
-        },
-        blog: {
-          showReadingTime: false,
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -71,60 +60,42 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/harrek-logo-square.png',
-      navbar: {
-        style: 'dark',
-        title: 'HarrekHeals',
-        logo: {
-          alt: 'Harrek Logo',
-          src: 'img/rounded-logo-w-background.png',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Guides',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/services', label: 'Services', position: 'left'},
-        ],
-		},
+      metadata: [
+        {name: 'twitter:card', content: 'summary'}
+      ],
+      navbar: {},
     headTags: [],
 		footer: {
 			style: 'dark',
 			links: [
 			{
-				title: 'Docs',
-				items: [
-				{
-					label: 'Guides',
-					to: '/guides',
-				},
-				{
-					label: 'Blog',
-					to: '/blog',
-				},
-				{
-					label: 'Services',
-					to: '/services',
-				},
-				],
-			},
-			{
-				title: 'Community',
+				title: 'Content',
 				items: [
 				{
 					label: 'Youtube',
 					href: 'https://youtube.com/@harreks',
 				},
 				{
+					label: 'CurseForge',
+					href: 'https://www.curseforge.com/members/harrek/projects'
+				}
+				],
+			},
+			{
+				title: 'Community',
+				items: [
+				{
 					label: 'Spiritbloom.Pro Discord',
-					href: 'https://discord.spiritbloom.pro',
+					href: 'https://discord.gg/MMjNrUTxQe',
 				},
 				{
 					label: 'Wyrmrest Temple Discord',
-					href: 'https://discord.com/invite/evoker',
+					href: 'https://discord.gg/evoker',
 				},
+				{
+					label: 'Earthshrine Discord',
+					href: 'https://discord.gg/earthshrine'
+				}
 				],
 			},
 			{

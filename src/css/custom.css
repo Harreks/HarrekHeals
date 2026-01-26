@@ -23,6 +23,10 @@
   font-family: 'AR One Sans';
 }
 
+nav {
+	display: none;
+}
+
 .theme-layout-main {
 	background-color: black;
 }
@@ -70,6 +74,7 @@ h1, h2, h3 {
 	width: 15rem;
 	display: inline-block;
 	padding: 0.5rem 1rem;
+	margin: 0.5rem;
 	border: 1px solid grey;
 	background-color: black;
 	transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
@@ -86,4 +91,22 @@ h1, h2, h3 {
 .link-card p {
 	margin-bottom: 0;
 	color: white;
+}
+
+.work-image-container  {
+    border: 1px solid #ff5a01;
+    height: 6rem;
+    width: 17rem;
+}
+
+.work-image-container img {
+    object-fit: cover;
+	height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.works-container > div {
+  margin: 0.3rem;
+  width: 30%
 }
