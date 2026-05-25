@@ -63,7 +63,30 @@ const config = {
       metadata: [
         {name: 'twitter:card', content: 'summary'}
       ],
-      navbar: {},
+      navbar: {
+		title: 'Harrek Heals',
+		logo: {
+			alt: 'Harrek\'s Logo',
+			src: 'img/harrek-logo.png'
+		},
+		items: [
+			{
+				to: '/projects',
+				label: 'My Work',
+				position: 'left'
+			},
+			{
+				to: '/coaching',
+				label: 'Coaching',
+				position: 'left'
+			},
+			{
+				to: '/contact',
+				label: 'Contact',
+				position: 'left'
+			}
+		]
+	  },
     headTags: [],
 		footer: {
 			style: 'dark',
@@ -71,6 +94,10 @@ const config = {
 			{
 				title: 'Content',
 				items: [
+				{
+					label: 'Twitch',
+					href: 'https://www.twitch.tv/harrekz',
+				},
 				{
 					label: 'Youtube',
 					href: 'https://youtube.com/@harreks',
@@ -82,18 +109,18 @@ const config = {
 				],
 			},
 			{
-				title: 'Community',
+				title: 'Discords',
 				items: [
 				{
-					label: 'Spiritbloom.Pro Discord',
+					label: 'Spiritbloom.Pro',
 					href: 'https://discord.gg/MMjNrUTxQe',
 				},
 				{
-					label: 'Wyrmrest Temple Discord',
+					label: 'Wyrmrest Temple',
 					href: 'https://discord.gg/evoker',
 				},
 				{
-					label: 'Earthshrine Discord',
+					label: 'Earthshrine',
 					href: 'https://discord.gg/earthshrine'
 				}
 				],
