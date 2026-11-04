@@ -72,7 +72,7 @@ const config = {
 		items: [
 			{
 				to: '/projects',
-				label: 'My Work',
+				label: 'Projects',
 				position: 'left'
 			},
 			{
@@ -133,8 +133,8 @@ const config = {
 					href: 'https://www.patreon.com/harrek',
 				},
 				{
-					label: 'Bluesky',
-					href: 'https://bsky.app/profile/spiritbloom.pro',
+					label: 'Ko-fi',
+					href: 'https://ko-fi.com/harrek',
 				},
 				{
 					label: 'GitHub',

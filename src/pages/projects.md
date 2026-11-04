@@ -1,130 +1,117 @@
 ---
 title: Projects
-description: Guide writing, development, and content projects
+description: Guides, tools, and videos for World of Warcraft healers
 ---
 
-# Guide Writing
+<div className="projects-page">
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.wowhead.com/guide/classes/shaman/restoration/overview-pve-healer">
-    <div class="work-image-container">
-      <img src="/img/WowheadRestoShaman.png" alt="Wowhead Restoration Shaman Guide Writer" />
+  <section className="projects-section" aria-labelledby="guides-heading">
+    <div className="projects-section-heading">
+      <h2 id="guides-heading">Guide Writing</h2>
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Wowhead Restoration Shaman Guide Writer</h3>
-    <p>Guide writer and lead theorycrafter</p>
-  </div>
-</div>
+    <div className="projects-grid">
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.wowhead.com/guide/classes/shaman/restoration/overview-pve-healer">
+        <div className="project-card-image"><img src="/img/WowheadRestoShaman.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Wowhead Retail Restoration Shaman</h3>
+          <p>Guide writer and lead theorycrafter</p>
+        </div>
+      </a>
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://spiritbloom.pro">
-    <div class="work-image-container">
-      <img src="/img/SpiritbloomPro.png" alt="Spiritbloom.Pro Preservation & Resto Shaman Guides" />
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://spiritbloom.pro">
+        <div className="project-card-image"><img src="/img/SpiritbloomPro.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Spiritbloom.Pro</h3>
+          <p>Site developer and main writer. Preservation Evoker and Restoration Shaman</p>
+        </div>
+      </a>
+
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer">
+        <div className="project-card-image"><img src="/img/WowheadForeverHpal.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Wowhead Forever Holy Paladin</h3>
+          <p>Guide writer</p>
+        </div>
+      </a>
+
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.wowhead.com/mop-classic/guide/classes/priest/holy/healer-overview-pve">
+        <div className="project-card-image"><img src="/img/WowheadMopHolyPriest.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Wowhead Classic Holy Priest</h3>
+          <p>Mists of Pandaria guide writer</p>
+        </div>
+      </a>
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Spiritbloom.Pro Preservation & Resto Shaman Guides</h3>
-    <p>Site developer and main writer</p>
-  </div>
-</div>
+  </section>
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.wowhead.com/mop-classic/guide/classes/priest/holy/healer-overview-pve">
-    <div class="work-image-container">
-      <img src="/img/WowheadMopHolyPriest.png" alt="Wowhead Classic Holy Priest Guide Writer" />
+  <section className="projects-section" aria-labelledby="development-heading">
+    <div className="projects-section-heading">
+      <h2 id="development-heading">Addons & Development</h2>
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Wowhead Classic Holy Priest Guide Writer</h3>
-    <p>Writer since late Cataclysm</p>
-  </div>
-</div>
+    <div className="projects-grid">
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://wowanalyzer.com/">
+        <div className="project-card-image"><img src="/img/PresWowanalyzer.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Preservation Evoker WowAnalyzer</h3>
+          <p>Spec maintainer</p>
+        </div>
+      </a>
 
-# Development
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://wowanalyzer.com/">
+        <div className="project-card-image"><img src="/img/RestoShamWowAnalyzer.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Restoration Shaman WowAnalyzer</h3>
+          <p>Spec maintainer</p>
+        </div>
+      </a>
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://wowanalyzer.com/">
-    <div class="work-image-container">
-      <img src="/img/PresWowanalyzer.png" alt="Preservation Evoker WowAnalyzer" />
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.curseforge.com/wow/addons/harreks-advanced-raid-frames">
+        <div className="project-card-image"><img src="/img/AdvancedRaidFrames.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Harrek's Advanced Raid Frames</h3>
+          <p>The addon that saved healing</p>
+        </div>
+      </a>
+
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.curseforge.com/wow/addons/harreks-advanced-tooltips">
+        <div className="project-card-image"><img src="/img/AdvancedTooltips.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Harrek's Advanced Tooltips</h3>
+          <p>Most popular spell info tooltips addon</p>
+        </div>
+      </a>
+
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Preservation Evoker WowAnalyzer</h3>
-    <p>Spec maintainer</p>
-  </div>
-</div>
+  </section>
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://wowanalyzer.com/">
-    <div class="work-image-container">
-      <img src="/img/RestoShamWowAnalyzer.png" alt="Restoration Shaman WowAnalyzer" />
+  <section className="projects-section" aria-labelledby="content-heading">
+    <div className="projects-section-heading">
+      <h2 id="content-heading">Content</h2>
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Restoration Shaman WowAnalyzer</h3>
-    <p>Spec maintainer</p>
-  </div>
-</div>
+    <div className="projects-grid">
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@harreks">
+        <div className="project-card-image"><img src="/img/YoutubeChannel.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Harreks Youtube Channel</h3>
+          <p>Owner</p>
+        </div>
+      </a>
 
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.curseforge.com/wow/addons/harreks-advanced-raid-frames">
-    <div class="work-image-container">
-      <img src="/img/AdvancedRaidFrames.png" alt="Harrek's Advanced Raid Frames Addon" />
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://youtu.be/2IV9ydgzdSM">
+        <div className="project-card-image"><img src="/img/QeYoutubePresGuide.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Questionably Epic Preservation Guides</h3>
+          <p>Video editor and writer</p>
+        </div>
+      </a>
+
+      <a className="project-card" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLiAJehjjbzuwExXB-Nrq47NKarzA9Olq0">
+        <div className="project-card-image"><img src="/img/HealerQuickGuideVideos.png" alt="" /></div>
+        <div className="project-card-content">
+          <h3>Healer Quick Guide Videos</h3>
+          <p></p>
+        </div>
+      </a>
     </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Harrek's Advanced Raid Frames Addon</h3>
-    <p>The Addon that saved healing. Improvements for the default raid frames</p>
-  </div>
-</div>
-
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.curseforge.com/wow/addons/harreks-advanced-tooltips">
-    <div class="work-image-container">
-      <img src="/img/AdvancedTooltips.png" alt="Harrek's Advanced Tooltips Addon" />
-    </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Harrek's Advanced Tooltips Addon</h3>
-    <p>Most popular spell info tooltips addon</p>
-  </div>
-</div>
-
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.curseforge.com/wow/addons/preservation-stasis-tracker">
-    <div class="work-image-container">
-      <img src="/img/PreservationStasisTracker.png" alt="Preservation Stasis Tracker Addon" />
-    </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Preservation Stasis Tracker Addon</h3>
-    <p>Go-to replacement for the popular weakaura</p>
-  </div>
-</div>
-
-# Content
-
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://youtu.be/2IV9ydgzdSM">
-    <div class="work-image-container">
-      <img src="/img/QeYoutubePresGuide.png" alt="QuestionablyEpic Preservation Video Guides" />
-    </div>
-  </a>
-  <div class="work-item-content">
-    <h3>QuestionablyEpic Preservation Video Guides</h3>
-    <p>Video editor and writer</p>
-  </div>
-</div>
-
-<div class="work-item">
-  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLiAJehjjbzuwExXB-Nrq47NKarzA9Olq0">
-    <div class="work-image-container">
-      <img src="/img/HealerQuickGuideVideos.png" alt="Healer Quick Guide Videos" />
-    </div>
-  </a>
-  <div class="work-item-content">
-    <h3>Healer Quick Guide Videos</h3>
-    <p></p>
-  </div>
+  </section>
 </div>

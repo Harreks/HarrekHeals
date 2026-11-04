@@ -13,10 +13,25 @@ If you are looking for help with a spec I don't personally cover I will be happy
 
 # Pricing
 
-For everything that is done via written text you can assume a <a>$10 USD cost per session</a>, calls or videos would go up to <a>$40 USD per session</a>. I prefer to list these as *per session* rather than *per hour* because i don't want complex issues to go unresolved for the sake of taking less time. If we sit down to review your gameplay we will go until all your questions are answered, within reason.
+For everything that is done via written text you can assume a <a>$15 USD cost per session</a>, calls or videos would go up to <a>$40 USD per session</a>. I prefer to list these as *per session* rather than *per hour* because i don't want complex issues to go unresolved for the sake of taking less time. If we sit down to review your gameplay we will go until all your questions are answered, within reason.
 
 I am flexible about pricing and my main goal is always to make sure people are getting help. So if you don't think these prices are correct feel free to contact me and we can discuss it.
 
 # Booking
 
 To schedule a session you can do so either via <a href='https://metafy.gg/@harrek/'>Metafy</a> or on my <a href='https://cal.com/harrek'>bookings calendar</a>. For log or vod reviews please <a href='/contact'>contact me</a>.
+
+<div class="contact-grid">
+  <a class="card link-card" href="https://metafy.gg/@harrek/" target="_blank" rel="noreferrer">
+    <h3>Metafy</h3>
+    <p>Visit my Metafy page</p>
+  </a>
+  <a class="card link-card" href="https://cal.com/harrek" target="_blank" rel="noreferrer">
+    <h3>Book a session</h3>
+    <p>Schedule on my cal.com page</p>
+  </a>
+  <a class="card link-card" href="/contact">
+    <h3>Contact</h3>
+    <p>Arrange log or VOD reviews</p>
+  </a>
+</div>

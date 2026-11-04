@@ -21,17 +21,26 @@ If you want to support me and all the things i work on considering subscribing t
 
 <div class="content-center index-link-cards">
 <a class="card link-card" href="/projects">
-<h3>My Work</h3>
-<p>List of all my projects</p>
+<h3>Projects</h3>
+<p>All the things i work on</p>
 </a>
 <a class="card link-card" href="/coaching">
 <h3>Coaching</h3>
-<p>Let's get better</p>
+<p>Level up your healing</p>
 </a>
 <a class="card link-card" href="/contact">
 <h3>Contact</h3>
 <p>Feel free to reach out</p>
 </a>
+</div>
+
+
+<div class="twitch-player-wrapper">
+<iframe
+  src="https://player.twitch.tv/?channel=harrekz&amp;parent=harrekheals.me&amp;parent=www.harrekheals.me&amp;parent=localhost&amp;parent=127.0.0.1"
+  title="Harrek's Twitch channel"
+  allowFullScreen
+></iframe>
 </div>
 
 </div>
